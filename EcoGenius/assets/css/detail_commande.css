@@ -1,0 +1,82 @@
+.logo img{
+    width: 100px; /* Largeur fixe de 300 pixels */
+    height: auto;
+}
+
+
+
+body{
+    background-color: #05352C;
+    font-family: "Segoe UI" , sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #C9C4C4;
+}
+.titre{
+    margin-top: 7%;
+    font-size: 40px ;
+}
+.description{
+    margin-top: 9%;
+    width: 45%;
+    
+}
+.prix{
+    margin-top: 5%;
+}
+.prix_valeur{
+    font-size: 30px ;
+}
+.boutton_acheter{
+    margin-top: 4%;
+}
+.boutton_acheter button{
+    background-color: #c6af4f;
+    width: 60%;
+    padding: 9px 9px 9px 9px;
+    border-radius: 5px;
+    font-size: 20px ;
+    color: #05352C;
+    font-weight: 550;
+    border-style: none;
+}
+
+.description_image {
+    margin-top: 7%;
+    float: right;
+    width: 300px; 
+    height: 300px; 
+    background-color: #C9C4C4;
+    border-radius: 50% 0% 50% 50%;
+}
+.suggestion{
+    font-size: 25px;
+    margin-top: 5%;
+}
+.produit {
+    width: 20%;
+    height: 5cm;
+    background-color: #C9C4C4;
+    
+}
+
+
+
+.produit_a_suggerer{
+    margin-top: 3%;
+}
+.lien_suggestion img{
+    /* margin-left: 20%;
+    margin-top: 20%; */
+    width: 100%;
+    height: auto;
+}
+
+.image_produit img{
+    /* margin-top: 7%; */
+    float: right;
+    width: 100%; 
+    height: 100%; 
+    background-color: #C9C4C4;
+    border-radius: 50% 0% 50% 50%;
+}

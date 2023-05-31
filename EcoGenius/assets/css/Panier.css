@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+}
+
+.Latotal{
+    min-height: 95vh;
+    display: flex;
+    background-color: rgb(5, 53, 44);
+    flex-direction: column;
+    /* width: 30%; */
+}
+
+.image{
+    height: 400px;
+}
+
+.PrixTotal{
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    height: 70px;
+}
+
+.BouttonLatotal{
+    text-align: center;
+}
+
+.BouttonLatotal input{
+    font-size: large;
+    color: rgb(5, 53, 44);
+    font-weight: bold;
+}
+
+.custom-list-inline {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    list-style: none;
+}
+  
+.custom-list-inline li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.det{
+    font-size: 15px;
+    padding-top: 50px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.detailsphoto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn-custom {
+    background-color: rgb(5, 53, 44);
+    border-color: grey; 
+    color: #ffffff; 
+    font-size: small;
+}
+
+.operateur{
+    display: inline-block ;
+    padding: 10px 20px ;
+    background-color: white ;
+    border-color: white;
+    border: 0px;
+    font-weight: bold;
+    color: rgb(5, 53, 44); 
+    text-align: center ;
+    text-decoration: none ;
+}
+

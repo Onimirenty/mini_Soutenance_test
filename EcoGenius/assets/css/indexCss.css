@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #50726C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+    background-color: #05352C;
+    border-radius: 50px;
+    overflow: hidden;  /*manaraka an le div ao ivelany le div ao anatiny*/
+    position: relative;
+}
+
+.boite_info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    font-size: 1.3rem;
+}
+
+
+
+.boite_Boutton{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.btn{
+    width: 50%;
+    height: 45px;
+    background-color: white;
+    margin: 10px auto;      /*auto: mapa centrer an azy ligne*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn :hover{
+    background-color: #05352C;
+    cursor: pointer;
+}

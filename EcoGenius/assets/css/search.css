@@ -1,0 +1,51 @@
+.searchCheckBox
+{
+    width: 300px;
+    height: 47px;
+    position: relative;
+    border: 0px;
+    border-bottom: 2px solid #0c5c0f29;
+    padding-left: 45px;
+    color: #90ab90;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.searchDiv
+{
+    margin-bottom: 145px;
+}
+
+::placeholder
+{
+    color: #90ab90;
+}
+
+.container{
+    background-image: url('../image/fond.JPG');
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.boutonDiv
+{
+    margin-top: 47px;
+    margin-left: 50pxpx;
+}
+
+.bouton{
+    width: 229px;
+    height: 49px;
+    background-color: #1d411d73;
+    color: white;
+    font-size: 18px;
+    border-radius: 49px;
+}

@@ -1,0 +1,72 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    /*background-color: #333;*/
+    background-color: black;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .month {
+    color: blue;
+  }
+  
+  .chart {
+    position: relative;
+    width: 200px;
+  }
+  
+  .bar {
+    height: 10px;
+    background-color: green;
+    animation: barAnimation 2s ease-in-out;
+  }
+  
+  @keyframes barAnimation {
+    0% { width: 0; }
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #948a8a;
+  }
+  
+  button.active {
+    background-color: #ed2121;
+  }
+  

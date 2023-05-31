@@ -1,0 +1,86 @@
+/* Styles spécifiques aux écrans d'ordinateur */
+@media (min-width: 992px) {
+    /* Ajoutez ici vos styles spécifiques aux écrans d'ordinateur */
+}
+
+/* Styles spécifiques aux smartphones */
+@media (max-width: 576px) {
+    /* Ajoutez ici vos styles spécifiques aux smartphones */
+}
+.sidebar {
+    opacity: 0.7;
+    z-index: 9999;
+    width: 200px;
+    /* background-color: #f5f5f5; */
+    font-weight: 400;
+    font-size: large;
+    color: #190d0d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+.button {
+    float: left;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    background-color: #b2aaaa;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.menu-item.active {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.menu-item:hover {
+    background-color: #ddd;
+}
+
+body {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../image/3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+html {
+    background-color: #000000;
+}
+.responsive-button {
+    display: none; /* Par défaut, masquez le bouton sur les écrans larges */
+    margin-left: 11%;
+}
+
+/* Afficher le bouton sur les écrans de petite taille */
+@media (max-width: 768px) {
+    .responsive-button {
+        display: block;
+    }
+}
+
+
+.table td {
+    color: rgb(255, 255, 255);
+}
+.table th {
+    color: salmon;
+}
+
+.title1 {
+    color: salmon;
+}

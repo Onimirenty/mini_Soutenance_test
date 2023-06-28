@@ -1,13 +1,14 @@
 html, body {
     height: 100%;
+    background-color: #f1efef !important ;
 }
+
 
 .Latotal{
     min-height: 95vh;
     display: flex;
     background-color: rgb(5, 53, 44);
     flex-direction: column;
-    /* width: 30%; */
 }
 
 .image{
@@ -52,13 +53,13 @@ html, body {
 }
 
 .detailsphoto{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     font-size: 17px;
     font-weight: bold;
 }
 
-.btn-custom {
-    background-color: rgb(5, 53, 44);
+.btn-success {
+    background-color: rgb(5, 53, 44) !important;
     border-color: grey; 
     color: #ffffff; 
     font-size: small;
@@ -67,7 +68,7 @@ html, body {
 .operateur{
     display: inline-block ;
     padding: 10px 20px ;
-    background-color: white ;
+    background-color: #f1efef ;
     border-color: white;
     border: 0px;
     font-weight: bold;
@@ -76,3 +77,52 @@ html, body {
     text-decoration: none ;
 }
 
+.supprimer{
+    background-color: #f1efef !important;
+    border: 1px solid red !important;
+}
+
+hr{
+    background-color: white;
+}
+
+.icone{
+    color: red;
+}
+
+.imageProduit{
+    border-radius: 5%;
+}
+
+
+/*---------------------------------------------------- Css titre ----------------------------------------------*/
+h2{
+    margin-left: 43%;
+    /* color: rgb(5, 53, 44); */
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    background: linear-gradient(to right, rgb(5, 53, 44), pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.titre {
+  text-align: center;
+  color: #555;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 32px;
+  margin-left: 40%;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+p {
+  font-size: 12px;
+}

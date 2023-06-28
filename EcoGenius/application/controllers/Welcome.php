@@ -27,20 +27,20 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('accueil');
 	}
-
+	
 	public function signUp()
 	{
 		$this->load->model("LoginSign");
 		$data['listeSexe']=$this->LoginSign->getAllSexe();
 		$this->load->view('signUp',$data);
 	}
-
+	
 	public function verificationLogin(){
         $mail=$this->input->post('mail');
         $password=$this->input->post('password');
         $this->load->model("LoginSign");
         $result=$this->LoginSign->login($mail,$password);
-
+        
         if($result!=false){
 			$this->session->set_userdata('utilisateur', $result);
 			redirect('Welcome/accueil');
@@ -48,7 +48,7 @@ class Welcome extends CI_Controller {
             redirect('Welcome/index');
         }
     }
-
+	
 	public function inscription(){
         $nom=$this->input->post('nom');
         $prenom=$this->input->post('prenom');

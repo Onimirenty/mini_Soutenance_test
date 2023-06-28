@@ -12,7 +12,7 @@
     <p><a href="<?php echo site_url("RechercheController/goToRechercheAvance"); ?>">Recherche Avance</a></p>
     <h1>Admin</h1>
     <p><a href="<?php echo site_url("AdminController/achat"); ?>">Liste Client</a></p>
-    <p><a href="<?php echo site_url("Produit/produit"); ?>">Liste Produit</a></p>
+    <p><a href="<?php echo site_url("ProduitController/produit"); ?>">Liste Produit</a></p>
     <p><a href="<?php echo site_url("Statistique"); ?>">Liste Produit</a></p>
 
 </html>

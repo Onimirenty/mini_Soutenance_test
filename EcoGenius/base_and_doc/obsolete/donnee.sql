@@ -11,4 +11,4 @@ INSERT INTO categorieProduit(idProduit,nomCategorieProduit) VALUES(1,'Sac a dos'
 
 INSERT INTO sousCategorieProduit(idCategorieProduit,nomSousCategorieProduit,description,prix) VALUES(1,'abc','taille=8',10000);
 
-INSERT INTO photoSousCategorieProduit(idSousCategorieProduit,photo) VALUES(1,'cartable.jpg');
+INSERT INTO photoProduit(idSousCategorieProduit,photo) VALUES(1,'cartable.jpg');

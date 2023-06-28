@@ -7,6 +7,7 @@
 @media (max-width: 576px) {
     /* Ajoutez ici vos styles spécifiques aux smartphones */
 }
+
 .sidebar {
     opacity: 0.7;
     z-index: 9999;
@@ -20,11 +21,13 @@
     left: 0;
     height: 100vh;
 }
+
 .button {
     float: left;
 }
+
 .menu {
-    display: flex;
+    display: none;
     list-style-type: none;
     background-color: #b2aaaa;
     padding: 0;
@@ -48,19 +51,10 @@
     background-color: #ddd;
 }
 
-body {
-    box-sizing: border-box;
-    position: absolute;
-    width: 100%;
-    min-height: 100vh;
-    background: url("../image/3.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 html {
     background-color: #000000;
 }
+
 .responsive-button {
     display: none; /* Par défaut, masquez le bouton sur les écrans larges */
     margin-left: 11%;
@@ -73,14 +67,62 @@ html {
     }
 }
 
+body {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../image/3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    color: white;
+}
 
 .table td {
     color: rgb(255, 255, 255);
 }
+
 .table th {
-    color: salmon;
+    color: #eedfe2;;
 }
 
 .title1 {
-    color: salmon;
+    color: #e1ddde;;
+}
+
+.popupDelete {
+    display: none;
+}
+
+.popupUpdate {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+.input_1
+{
+    color: #000000;
+}
+label {
+    vertical-align: top;
+}
+
+input {
+    vertical-align: top;
+}
+
+form.modificationForm label
+{
+    float: left;
+}
+form.modificationForm input
+{
+    display: inline-block;
 }

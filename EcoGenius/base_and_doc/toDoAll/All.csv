@@ -1,0 +1,82 @@
+ID	Nom	Date de début	Date de fin	Durée	Avancée	Coût	Responsable	Prédécesseurs	Numéro hiérarchique	Ressources	Assignments	Nouvelle tâche	Lien internet	Notes
+0	login	24/05/2023 04:25	24/05/2023 06:30				thony							Maquette
+1	gestion des stocks	25/05/2023 06:18	25/05/2023 07:43				mirenty							back
+2	login	26/05/2023 11:12	26/05/2023 11:12				thony							front
+3	report	27/05/2023 06:36	27/05/2023 07:11				mirenty							back
+4	login	28/05/2023 07:21	28/05/2023 09:27				thony							front
+5	login	29/05/2023 18:03	29/05/2023 18:03				thony							back
+6	Sign Up	30/05/2023 08:43	30/05/2023 11:05				thony							Maquette
+7	Sign Up	31/05/2023 14:17	31/05/2023 14:17				thony							front
+8	Sign Up	01/06/2023 07:55	01/06/2023 09:11				thony							front
+9	Sign Up	02/06/2023 06:12	02/06/2023 06:12				thony,mirenty							back
+10	Accueil	03/06/2023 08:25	03/06/2023 11:25											Maquette
+11	Statistique	04/06/2023 09:26	04/06/2023 09:26											Maquette
+12	Payement	05/06/2023 07:21	05/06/2023 10:07											Maquette
+13	Accueil	06/06/2023 09:40	06/06/2023 09:40											front
+14	Accueil	07/06/2023 07:30	07/06/2023 09:40											front
+15	détaille Produit	08/06/2023 06:48	08/06/2023 06:48				fehizoro							affichage
+16	détaille Produit	09/06/2023 06:48	09/06/2023 06:48				fehizoro							affichage
+17	détaille Produit	10/06/2023 06:48	10/06/2023 06:48				fehizoro							affichage
+18	detailProduit	11/06/2023 06:48	11/06/2023 06:48				fehizoro							affichage
+19	detailProduit	12/06/2023 06:48	12/06/2023 06:48				fehizoro							affichage
+20	detailProduit	13/06/2023 06:48	13/06/2023 06:48				fehizoro							affichage
+21	detailProduit	14/06/2023 06:48	14/06/2023 06:48				fehizoro							affichage
+22	detailProduit	15/06/2023 06:48	15/06/2023 06:48				fehizoro							affichage
+23	detailProduit	16/06/2023 06:48	16/06/2023 06:48				fehizoro							affichage
+24	detailProduit	17/06/2023 06:48	17/06/2023 06:48				fehizoro							affichage
+25	detailProduit	18/06/2023 06:48	18/06/2023 06:48				fehizoro							affichage
+26	detailProduit	19/06/2023 06:48	19/06/2023 06:48				fehizoro							affichage
+27	detailProduit	20/06/2023 06:48	20/06/2023 06:48				fehizoro							affichage
+28	detailProduit	21/06/2023 06:48	21/06/2023 06:48				fehizoro							affichage
+29	detailProduit	22/06/2023 06:48	22/06/2023 06:48				fehizoro							affichage
+30	detailProduit	23/06/2023 06:48	23/06/2023 06:48				fehizoro							affichage
+31	detailProduit	24/06/2023 06:48	24/06/2023 06:48				fehizoro							affichage
+32	detailProduit	25/06/2023 06:48	25/06/2023 06:48				fehizoro							affichage
+33	detailProduit	26/06/2023 06:48	26/06/2023 06:48				fehizoro							affichage
+34	detailProduit	27/06/2023 06:48	27/06/2023 06:48				fehizoro							affichage
+35	detailProduit	28/06/2023 06:48	28/06/2023 06:48				fehizoro							affichage
+36	detailProduit	29/06/2023 06:48	29/06/2023 06:48				fehizoro							metier
+37	detailProduit	30/06/2023 06:48	30/06/2023 06:48				fehizoro							metier
+38	detailProduit	01/07/2023 06:48	01/07/2023 06:48				fehizoro							metier
+39	detailProduit	02/07/2023 06:48	02/07/2023 06:48				fehizoro							metier
+40	detailProduit	05/07/2023 06:48	05/07/2023 06:48				fehizoro							metier
+41	detailProduit	06/07/2023 06:48	06/07/2023 06:48				fehizoro							metier
+42	detailProduit	07/07/2023 06:48	07/07/2023 06:48				fehizoro							metier
+43	liste des commandes	08/07/2023 06:48	08/07/2023 06:48				fehizoro							affichage
+44	liste des commandes	09/07/2023 06:48	09/07/2023 06:48				fehizoro							affichage
+45	liste des commandes	10/07/2023 06:48	10/07/2023 06:48				fehizoro							affichage
+46	liste des commandes	11/07/2023 06:48	11/07/2023 06:48				fehizoro							affichage
+47	liste des commandes	12/07/2023 06:48	12/07/2023 06:48				fehizoro							affichage
+48	liste des commandes	13/07/2023 06:48	13/07/2023 06:48				fehizoro							affichage
+49	liste des commandes	14/07/2023 06:48	14/07/2023 06:48				fehizoro							affichage
+50	liste des commandes	15/07/2023 06:48	15/07/2023 06:48				fehizoro							affichage
+51	liste des commandes	16/07/2023 06:48	16/07/2023 06:48				fehizoro							affichage
+52	Ajout Panier	17/07/2023 06:48	17/07/2023 06:48				fehizoro							maquette
+53	Ajout Panier	18/07/2023 06:48	18/07/2023 06:48				fehizoro							metier
+54	Ajout Panier	19/07/2023 06:48	19/07/2023 06:48				fehizoro							metier
+55	Ajout Panier	20/07/2023 06:48	20/07/2023 06:48				fehizoro							metier
+56	Ajout Panier	21/07/2023 06:48	21/07/2023 06:48				fehizoro							metier
+57	Ajout Panier	22/07/2023 06:48	22/07/2023 06:48				fehizoro							metier
+58	Ajout Panier	24/07/2023 06:48	24/07/2023 06:48				fehizoro							metier
+59	Ajout Panier	25/07/2023 06:48	25/07/2023 06:48				fehizoro							metier
+60	Panier	26/07/2023 06:48	26/07/2023 06:48				diary							affichage
+61	Panier	27/07/2023 06:48	27/07/2023 06:48				diary							affichage
+62	Panier	28/07/2023 06:48	28/07/2023 06:48				diary							affichage
+63	Panier	29/07/2023 06:48	29/07/2023 06:48				diary							affichage
+64	Panier	30/07/2023 06:48	30/07/2023 06:48				diary							affichage
+65	Panier	31/07/2023 06:48	31/07/2023 06:48				diary							affichage
+66	Panier	01/08/2023 06:48	01/08/2023 06:48				diary							affichage
+67	Panier	02/08/2023 06:48	02/08/2023 06:48				diary							affichage
+68	Panier	03/08/2023 06:48	03/08/2023 06:48				diary							affichage
+69	Accueil	04/08/2023 06:48	04/08/2023 06:48				ony							back
+70	Accueil	05/08/2023 06:48	05/08/2023 06:48				ony							back
+71	Accueil	06/08/2023 06:48	06/08/2023 06:48				ony							back
+72	Commande	07/08/2023 06:48	07/08/2023 06:48				fehizoro							affichage
+73	Commande	08/08/2023 06:48	08/08/2023 06:48				fehizoro							affichage
+74	Commande	09/08/2023 06:48	09/08/2023 06:48				fehizoro							affichage
+75	Commande	10/08/2023 06:48	10/08/2023 06:48				fehizoro							affichage
+76	Commande	11/08/2023 06:48	11/08/2023 06:48				fehizoro							affichage
+77	Commande	12/08/2023 06:48	12/08/2023 06:48				fehizoro							affichage
+78	Commande	13/08/2023 06:48	13/08/2023 06:48				fehizoro							affichage
+79	Commande	14/08/2023 06:48	14/08/2023 06:48				fehizoro							affichage
+80	Commande	15/08/2023 06:48	15/08/2023 06:48				fehizoro							affichage
